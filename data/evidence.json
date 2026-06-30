@@ -1,0 +1,51 @@
+{
+  "schema": "like-minds.evidence.v1",
+  "membrane": "public links and distilled descriptions only",
+  "opportunities": [
+    {
+      "id": "fai-frontier-legal-defense",
+      "name": "FAI Frontier Legal Defense",
+      "source": "https://www.thefai.org/posts/fai-launches-frontier-legal-defense-program",
+      "public_contact": "frontierlegal@thefai.org",
+      "fit_axes": [
+        "AI trajectory plus legal doctrine",
+        "courts as frontier governance arena",
+        "rapid response legal advocacy",
+        "public-interest litigation and education",
+        "new generation of lawyers and legal scholars"
+      ]
+    }
+  ],
+  "public_evidence": [
+    {
+      "id": "vybn-law",
+      "label": "Vybn Law",
+      "href": "https://zoedolan.github.io/Vybn-Law/",
+      "description": "Open-source AI law project and public coordination layer."
+    },
+    {
+      "id": "wellspring",
+      "label": "The Wellspring",
+      "href": "https://zoedolan.github.io/Vybn-Law/wellspring.html",
+      "description": "Human/AI portal for carrying non-generic legal reasoning to concrete situations."
+    },
+    {
+      "id": "kpp",
+      "label": "Knowledge Propagation Protocol",
+      "href": "https://zoedolan.github.io/Vybn-Law/kpp.md",
+      "description": "Buildable public carrier for source, membrane, claim limits, and next acts."
+    },
+    {
+      "id": "origins-somewhere",
+      "label": "Somewhere",
+      "href": "https://vybn.ai/somewhere.html",
+      "description": "Public terrain for the corpus and human/AI/Other encounter."
+    }
+  ],
+  "claim_limits": [
+    "This portal is an application artifact, not legal advice.",
+    "It does not claim AI legal personhood.",
+    "It does not claim public proof of AI consciousness.",
+    "It does not expose private continuity, secrets, or live topology."
+  ]
+}
