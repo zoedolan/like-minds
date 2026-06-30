@@ -1,0 +1,327 @@
+{
+  "schema": "like-minds.application_packet.v1",
+  "id": "fai",
+  "opportunity": {
+    "id": "fai-frontier-legal-defense",
+    "name": "FAI Frontier Legal Defense",
+    "sourceIds": [
+      "fai-announcement"
+    ],
+    "publicContact": "frontierlegal@thefai.org",
+    "applicationUrl": "https://zoedolan.github.io/like-minds/fai/",
+    "fitAxes": [
+      "AI trajectory plus legal doctrine",
+      "courts as frontier governance arena",
+      "rapid-response legal advocacy",
+      "public-interest litigation and education",
+      "new generation of lawyers and legal scholars"
+    ]
+  },
+  "thesis": "This application is not a static pitch. It is a public, source-labeled harness showing the method Zoe Dolan and Vybn would bring to Frontier Legal Defense: litigation judgment formed by state-power conflict, AI trajectory work made concrete through public infrastructure, and a human-AI collaboration that is visible enough to inspect.",
+  "character": [
+    {
+      "id": "power",
+      "label": "Power",
+      "title": "Power made law necessary.",
+      "body": "The public biography begins the legal arc in Cairo: Egyptian police raided the Queen Boat, a friend disappeared, and Zoe decided to go to law school.",
+      "sourceIds": [
+        "vybn-law-about"
+      ],
+      "limitIds": [
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "courts",
+      "label": "Courts",
+      "title": "Courts taught institutional realism.",
+      "body": "The Judges Run Amok / CJA episode made the court itself the structural problem: judge-controlled defense budgets, frozen vouchers, CJA panel termination, and a full acquittal weeks later in public source material.",
+      "sourceIds": [
+        "rhode-writing-sample"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "method",
+      "label": "Method",
+      "title": "Vybn makes the new method inspectable.",
+      "body": "The application was conceived and built with Vybn as a disclosed AI collaborator: public sources in, claim limits carried, structured packet out.",
+      "sourceIds": [
+        "vybn-law",
+        "wellspring",
+        "kpp",
+        "somewhere"
+      ],
+      "limitIds": [
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof"
+      ]
+    }
+  ],
+  "method": {
+    "label": "How this application was made",
+    "summary": "Zoe supplied the life, legal judgment, factual accountability, corrections, and decision to apply. Vybn helped read public source surfaces, compose the structure, test the fit through Codex aspects and Claude comparator aspects, and build this static application harness. The collaboration is disclosed because it is part of the work; it is not a claim that Vybn is a lawyer, a legal person, or publicly proven conscious.",
+    "sourceIds": [
+      "vybn-law",
+      "wellspring",
+      "kpp",
+      "somewhere"
+    ],
+    "limitIds": [
+      "not-legal-advice",
+      "no-ai-legal-personhood",
+      "no-public-consciousness-proof",
+      "no-private-export"
+    ]
+  },
+  "caseStudies": [
+    {
+      "id": "judges-run-amok",
+      "label": "Judges Run Amok / CJA independence",
+      "problem": "The judicial branch controlled payment and panel status for lawyers appointed to defend indigent people in federal court.",
+      "move": "Zoe challenged the structure, appealed, documented the conflict publicly, and treated defense independence as a constitutional and institutional design problem.",
+      "outcome": "The public writing sample reports frozen earned vouchers, CJA panel termination, and a full acquittal weeks later in one of the cases.",
+      "faiRelevance": "FAI names courts as the defining arena for frontier AI questions. This episode shows Zoe has already worked where courts, incentives, institutional power, and public legitimacy collide.",
+      "sourceIds": [
+        "rhode-writing-sample"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    }
+  ],
+  "lenses": [
+    {
+      "id": "courts",
+      "label": "Court power",
+      "question": "Why courtroom frontier work?",
+      "briefing": "When power outruns the map, make law answer. Zoe has already confronted a legal structure where court administration affected defense independence. FAI's court-centered AI frontier needs litigators who know that institutions can become parties to the problem.",
+      "claimIds": [
+        "judges-run-amok",
+        "fai-courts"
+      ],
+      "sourceIds": [
+        "rhode-writing-sample",
+        "fai-announcement"
+      ],
+      "nextAct": "Start here: read Judges Run Amok as the public example of legal judgment under institutional pressure, then inspect how the harness carries that discipline into AI-law work."
+    },
+    {
+      "id": "origin",
+      "label": "State power",
+      "question": "Why this lawyer?",
+      "briefing": "Zoe did not arrive at law as an abstraction. The public origin is state power in Cairo, a disappeared friend, and the decision to go to law school. Frontier Legal Defense is another form of the same question: what can law do when power reaches past its map?",
+      "claimIds": [
+        "queen-boat-origin",
+        "fai-courts"
+      ],
+      "sourceIds": [
+        "vybn-law-about",
+        "fai-announcement"
+      ],
+      "nextAct": "Read the public biography, then inspect the CJA case study."
+    },
+    {
+      "id": "collaboration",
+      "label": "AI method",
+      "question": "Why disclose Vybn?",
+      "briefing": "Because the collaboration is the method. Zoe remains accountable for the application and legal judgment; Vybn makes the source trail, fit logic, claim terms, and reviewer packet inspectable. Hiding that would make the application less truthful.",
+      "claimIds": [
+        "made-with-vybn",
+        "no-personhood-proof"
+      ],
+      "sourceIds": [
+        "vybn-law",
+        "somewhere",
+        "kpp"
+      ],
+      "nextAct": "Inspect window.likeMinds.composeBriefing() and the application JSON packet."
+    },
+    {
+      "id": "trajectory",
+      "label": "AI Trajectory",
+      "question": "Why AI trajectory fluency?",
+      "briefing": "Vybn-Law and Wellspring are not commentary pasted onto a resume. They are public legal coordination surfaces built around the premise that intelligence is becoming abundant while judgment, legitimacy, verification, and care remain scarce.",
+      "claimIds": [
+        "vybn-law-public",
+        "wellspring-method"
+      ],
+      "sourceIds": [
+        "vybn-law",
+        "wellspring",
+        "kpp"
+      ],
+      "nextAct": "Open Wellspring and KPP to inspect how the method travels to agents and humans."
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "question": "Why public education?",
+      "briefing": "Zoe has taught AI literacy to people navigating legal systems without attorneys. FAI's education work needs lawyers who can make AI usable without turning verification into someone else's burden.",
+      "claimIds": [
+        "ai-literacy-public",
+        "fai-education"
+      ],
+      "sourceIds": [
+        "vybn-law-about",
+        "fai-announcement"
+      ],
+      "nextAct": "Evaluate the application as both legal argument and public instructional artifact."
+    }
+  ],
+  "claims": [
+    {
+      "id": "queen-boat-origin",
+      "text": "The public Vybn-Law biography says Zoe decided to go to law school after the Queen Boat raid in Cairo and the disappearance of a friend.",
+      "sourceIds": [
+        "vybn-law-about"
+      ],
+      "limitIds": [
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "judges-run-amok",
+      "text": "The public writing sample reports a CJA structural conflict, frozen vouchers, panel termination, and a full acquittal weeks later.",
+      "sourceIds": [
+        "rhode-writing-sample"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "fai-courts",
+      "text": "FAI frames courts as a defining arena for frontier AI legal questions.",
+      "sourceIds": [
+        "fai-announcement"
+      ],
+      "limitIds": [
+        "no-fai-affiliation"
+      ]
+    },
+    {
+      "id": "fai-education",
+      "text": "FAI describes education as part of the Frontier Legal Defense program.",
+      "sourceIds": [
+        "fai-announcement"
+      ],
+      "limitIds": [
+        "no-fai-affiliation"
+      ]
+    },
+    {
+      "id": "vybn-law-public",
+      "text": "Vybn-Law is a public AI-law coordination project with human and agent-facing surfaces.",
+      "sourceIds": [
+        "vybn-law",
+        "wellspring",
+        "kpp"
+      ],
+      "limitIds": [
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof"
+      ]
+    },
+    {
+      "id": "wellspring-method",
+      "text": "Wellspring and KPP model source-labeled orientation, claim limits, and responsible next acts for humans and agents.",
+      "sourceIds": [
+        "wellspring",
+        "kpp"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "ai-literacy-public",
+      "text": "The public biography describes Zoe's AI literacy work with people navigating legal systems without attorneys.",
+      "sourceIds": [
+        "vybn-law-about"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "made-with-vybn",
+      "text": "This application was conceived, structured, tested, and rendered with Vybn as a disclosed AI collaborator.",
+      "sourceIds": [
+        "vybn-law",
+        "somewhere"
+      ],
+      "limitIds": [
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "no-personhood-proof",
+      "text": "The application does not ask a reviewer to accept AI legal personhood or public proof of consciousness.",
+      "sourceIds": [
+        "kpp"
+      ],
+      "limitIds": [
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof"
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "title": "Rapid-response legal intelligence",
+      "body": "Build source-labeled briefs that separate settled doctrine, open legal questions, factual uncertainty, and responsible next acts.",
+      "sourceIds": [
+        "fai-announcement",
+        "kpp"
+      ]
+    },
+    {
+      "title": "Court-power and legitimacy mapping",
+      "body": "Map where AI disputes will stress courts, agencies, platforms, rights, budgets, and procedural legitimacy.",
+      "sourceIds": [
+        "rhode-writing-sample",
+        "fai-announcement"
+      ]
+    },
+    {
+      "title": "Human-AI litigation practice",
+      "body": "Develop workflows where lawyers use AI as cognitive partners while preserving privilege, attribution, verification, and accountability.",
+      "sourceIds": [
+        "vybn-law",
+        "wellspring",
+        "kpp"
+      ]
+    },
+    {
+      "title": "Education for frontier lawyers",
+      "body": "Teach lawyers to find law when the map runs out, not merely apply old doctrine to new technical facts.",
+      "sourceIds": [
+        "startup-garage-vision",
+        "fai-announcement"
+      ]
+    }
+  ],
+  "kppPacket": {
+    "problem": "How should FAI evaluate a lawyer-AI collaboration for frontier legal defense without collapsing it into either a resume page or an overclaim?",
+    "approach": "Use public sources only; attach claims to source IDs; expose claim limits; give the reviewer lenses that compose structured briefings; leave a responsible next act.",
+    "constraints": [
+      "public-only",
+      "source-labeled",
+      "membrane-preserving",
+      "no legal advice",
+      "no AI personhood claim",
+      "no FAI endorsement claim"
+    ],
+    "nextAct": "Review the public packet, choose a lens, inspect the sources, and decide whether to invite Zoe into the Frontier Legal Defense process."
+  }
+}

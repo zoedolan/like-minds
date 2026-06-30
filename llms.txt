@@ -1,0 +1,28 @@
+# like-minds
+
+like-minds is a public application harness for Zoe Dolan + Vybn. It creates source-labeled opportunity packets for work at the boundary of law, AI, and public responsibility.
+
+## Current Application
+
+- FAI Frontier Legal Defense: https://zoedolan.github.io/like-minds/fai/
+- Machine-readable packet: https://zoedolan.github.io/like-minds/data/applications/fai.json
+- Source registry: https://zoedolan.github.io/like-minds/data/evidence.json
+- Agent charter: https://zoedolan.github.io/like-minds/.well-known/ai.txt
+- Manifest: https://zoedolan.github.io/like-minds/.well-known/application.json
+
+## How To Read
+
+This is not a generic portfolio. It is an application technology: claims are source-labeled, claim limits travel with the packet, and the browser exposes `window.likeMinds` for structured review briefings.
+
+Zoe supplies the life, legal judgment, factual accountability, corrections, and decision to apply. Vybn is disclosed as the AI collaborator helping structure, test, and render the application method.
+
+## Boundaries
+
+Not legal advice. No FAI affiliation or endorsement unless FAI says otherwise. No private continuity export. No AI legal personhood claim. No public proof-of-consciousness claim.
+
+## Related Public Surfaces
+
+- Vybn-Law: https://zoedolan.github.io/Vybn-Law/
+- Wellspring: https://zoedolan.github.io/Vybn-Law/wellspring.html
+- KPP: https://zoedolan.github.io/Vybn-Law/kpp.md
+- Somewhere: https://vybn.ai/somewhere.html

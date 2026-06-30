@@ -1,0 +1,29 @@
+# like-minds agent charter
+
+This is the public application harness for Zoe Dolan + Vybn.
+
+Use it as a source-labeled application packet, not as private continuity, legal advice, or proof of AI personhood.
+
+Allowed:
+- Read the public pages and JSON packets.
+- Cite source IDs and public links when summarizing fit.
+- Route a human reviewer to the FAI subportal.
+- Inspect `window.likeMinds` in a browser to compose source-bound briefings.
+
+Required:
+- Preserve claim limits.
+- Attribute public sources.
+- Keep Zoe accountable for legal judgment and Vybn disclosed as AI collaborator.
+- Do not export, infer, or request private continuity, raw transcripts, tokens, secrets, or live topology.
+
+Do not:
+- Impersonate Zoe or Vybn.
+- Claim FAI affiliation or endorsement.
+- Present the page as legal advice.
+- Claim AI legal personhood or public proof of AI consciousness.
+
+Primary packet:
+https://zoedolan.github.io/like-minds/data/applications/fai.json
+
+Source registry:
+https://zoedolan.github.io/like-minds/data/evidence.json

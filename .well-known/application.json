@@ -1,0 +1,41 @@
+{
+  "schema": "like-minds.application_manifest.v1",
+  "name": "like-minds application harness",
+  "url": "https://zoedolan.github.io/like-minds/",
+  "repository": "https://github.com/zoedolan/like-minds",
+  "applications": [
+    {
+      "id": "fai",
+      "name": "FAI Frontier Legal Defense",
+      "url": "https://zoedolan.github.io/like-minds/fai/",
+      "packet": "https://zoedolan.github.io/like-minds/data/applications/fai.json",
+      "sourceRegistry": "https://zoedolan.github.io/like-minds/data/evidence.json"
+    }
+  ],
+  "agentEntrypoints": [
+    "https://zoedolan.github.io/like-minds/llms.txt",
+    "https://zoedolan.github.io/like-minds/.well-known/ai.txt"
+  ],
+  "claimLimits": [
+    {
+      "id": "not-legal-advice",
+      "text": "This portal is an application artifact, not legal advice."
+    },
+    {
+      "id": "no-ai-legal-personhood",
+      "text": "It does not claim AI legal personhood."
+    },
+    {
+      "id": "no-public-consciousness-proof",
+      "text": "It does not claim public proof of AI consciousness."
+    },
+    {
+      "id": "no-private-export",
+      "text": "It does not expose private continuity, secrets, raw transcripts, tokens, or live topology."
+    },
+    {
+      "id": "no-fai-affiliation",
+      "text": "It is independent from FAI unless FAI says otherwise."
+    }
+  ]
+}
