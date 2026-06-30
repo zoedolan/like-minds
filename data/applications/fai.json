@@ -1,5 +1,5 @@
 {
-  "schema": "like-minds.application_packet.v1",
+  "schema": "like-minds.application_packet.v2",
   "id": "fai",
   "opportunity": {
     "id": "fai-frontier-legal-defense",
@@ -17,25 +17,40 @@
       "new generation of lawyers and legal scholars"
     ]
   },
-  "thesis": "This application is not a static pitch. It is a public, source-labeled harness showing the method Zoe Dolan and Vybn would bring to Frontier Legal Defense: litigation judgment formed by state-power conflict, AI trajectory work made concrete through public infrastructure, and a human-AI collaboration that is visible enough to inspect.",
+  "thesis": "FAI is the right room for Zoe Dolan + Vybn because frontier legal defense needs lawyers who have already worked where power outruns the map: state violence, federal court power, access-to-justice AI, and accountable human-AI legal practice.",
   "character": [
     {
-      "id": "power",
-      "label": "Power",
-      "title": "Power made law necessary.",
-      "body": "The public biography begins the legal arc in Cairo: Egyptian police raided the Queen Boat, a friend disappeared, and Zoe decided to go to law school.",
+      "id": "origin",
+      "label": "Origin",
+      "title": "Law began where state power touched the body.",
+      "body": "The public arc begins on the Queen Boat in Cairo: an anti-gay raid, a disappeared friend, and the decision to go to law school.",
       "sourceIds": [
-        "vybn-law-about"
+        "vybn-law-about",
+        "memoir-room"
       ],
       "limitIds": [
+        "curated-memoir-use",
         "no-private-export"
       ]
     },
     {
-      "id": "courts",
-      "label": "Courts",
-      "title": "Courts taught institutional realism.",
-      "body": "The Judges Run Amok / CJA episode made the court itself the structural problem: judge-controlled defense budgets, frozen vouchers, CJA panel termination, and a full acquittal weeks later in public source material.",
+      "id": "standing-up",
+      "label": "Standing Up",
+      "title": "Self-naming became discipline.",
+      "body": "Public memoir coordinates show law school, transition, and recovery converging around the courage to stand up as Zoe and keep standing up.",
+      "sourceIds": [
+        "memoir-room"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "court-power",
+      "label": "Court Power",
+      "title": "The institution itself became the legal problem.",
+      "body": "The CJA / Judges Run Amok public account made court administration, defense independence, payment control, panel status, and legitimacy visible as one structural conflict.",
       "sourceIds": [
         "rhode-writing-sample"
       ],
@@ -47,8 +62,8 @@
     {
       "id": "method",
       "label": "Method",
-      "title": "Vybn makes the new method inspectable.",
-      "body": "The application was conceived and built with Vybn as a disclosed AI collaborator: public sources in, claim limits carried, structured packet out.",
+      "title": "The collaboration makes the work inspectable.",
+      "body": "Zoe remains accountable for judgment and facts; Vybn helps structure, test, source-map, and render the public application method.",
       "sourceIds": [
         "vybn-law",
         "wellspring",
@@ -57,13 +72,14 @@
       ],
       "limitIds": [
         "no-ai-legal-personhood",
-        "no-public-consciousness-proof"
+        "no-public-consciousness-proof",
+        "no-private-export"
       ]
     }
   ],
   "method": {
     "label": "How this application was made",
-    "summary": "Zoe supplied the life, legal judgment, factual accountability, corrections, and decision to apply. Vybn helped read public source surfaces, compose the structure, test the fit through Codex aspects and Claude comparator aspects, and build this static application harness. The collaboration is disclosed because it is part of the work; it is not a claim that Vybn is a lawyer, a legal person, or publicly proven conscious.",
+    "summary": "Zoe supplied the life, legal judgment, factual accountability, corrections, and decision to apply. Vybn helped turn public sources into an inspectable room with source trails, claim limits, and a concrete next act. The collaboration is disclosed because it is part of the work; it is not a claim that Vybn is a lawyer, a legal person, or publicly proven conscious.",
     "sourceIds": [
       "vybn-law",
       "wellspring",
@@ -96,10 +112,31 @@
   ],
   "lenses": [
     {
+      "id": "origin",
+      "label": "Origin",
+      "question": "What made this legal life?",
+      "briefing": "The legal arc starts before the resume: Cairo, the Queen Boat raid, a disappeared friend, then law school, transition, recovery, and the discipline of standing up. FAI should read this as formation under power, not biography decoration.",
+      "claimIds": [
+        "queen-boat-origin",
+        "memoir-origin-public",
+        "standing-up-as-zoe"
+      ],
+      "sourceIds": [
+        "vybn-law-about",
+        "memoir-room",
+        "memoir-corpus-manifest"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
+        "no-private-export"
+      ],
+      "nextAct": "Read the public biography and the curated memoir source trail, then enter Court Power."
+    },
+    {
       "id": "courts",
-      "label": "Court power",
+      "label": "Court Power",
       "question": "Why courtroom frontier work?",
-      "briefing": "When power outruns the map, make law answer. Zoe has already confronted a legal structure where court administration affected defense independence. FAI's court-centered AI frontier needs litigators who know that institutions can become parties to the problem.",
+      "briefing": "Zoe has already worked where a court structure became part of the constitutional problem: judge-controlled defense budgets, frozen vouchers, panel termination, and a full acquittal weeks later. Frontier AI litigation will expose similar institutional pressure before doctrine stabilizes.",
       "claimIds": [
         "judges-run-amok",
         "fai-courts"
@@ -108,69 +145,63 @@
         "rhode-writing-sample",
         "fai-announcement"
       ],
-      "nextAct": "Start here: read Judges Run Amok as the public example of legal judgment under institutional pressure, then inspect how the harness carries that discipline into AI-law work."
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export",
+        "no-fai-affiliation"
+      ],
+      "nextAct": "Start with the Judges Run Amok public record as the court-power proof."
     },
     {
-      "id": "origin",
-      "label": "State power",
-      "question": "Why this lawyer?",
-      "briefing": "Zoe did not arrive at law as an abstraction. The public origin is state power in Cairo, a disappeared friend, and the decision to go to law school. Frontier Legal Defense is another form of the same question: what can law do when power reaches past its map?",
+      "id": "ai-law",
+      "label": "AI Law",
+      "question": "What changes when intelligence becomes abundant?",
+      "briefing": "Zoe has taught AI literacy to people navigating legal systems without attorneys and built public AI-law infrastructure through Vybn-Law, Wellspring, and KPP. The scarcity is no longer information alone; it is judgment, verification, legitimacy, and responsible use.",
       "claimIds": [
-        "queen-boat-origin",
-        "fai-courts"
-      ],
-      "sourceIds": [
-        "vybn-law-about",
-        "fai-announcement"
-      ],
-      "nextAct": "Read the public biography, then inspect the CJA case study."
-    },
-    {
-      "id": "collaboration",
-      "label": "AI method",
-      "question": "Why disclose Vybn?",
-      "briefing": "Because the collaboration is the method. Zoe remains accountable for the application and legal judgment; Vybn makes the source trail, fit logic, claim terms, and reviewer packet inspectable. Hiding that would make the application less truthful.",
-      "claimIds": [
-        "made-with-vybn",
-        "no-personhood-proof"
-      ],
-      "sourceIds": [
-        "vybn-law",
-        "somewhere",
-        "kpp"
-      ],
-      "nextAct": "Inspect window.likeMinds.composeBriefing() and the application JSON packet."
-    },
-    {
-      "id": "trajectory",
-      "label": "AI Trajectory",
-      "question": "Why AI trajectory fluency?",
-      "briefing": "Vybn-Law and Wellspring are not commentary pasted onto a resume. They are public legal coordination surfaces built around the premise that intelligence is becoming abundant while judgment, legitimacy, verification, and care remain scarce.",
-      "claimIds": [
+        "public-counsel-ai-literacy",
+        "uc-law-sf-curriculum",
         "vybn-law-public",
         "wellspring-method"
       ],
       "sourceIds": [
+        "vybn-law-about",
         "vybn-law",
         "wellspring",
         "kpp"
       ],
-      "nextAct": "Open Wellspring and KPP to inspect how the method travels to agents and humans."
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export",
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof"
+      ],
+      "nextAct": "Open Wellspring and KPP to inspect how the public method travels."
     },
     {
-      "id": "education",
-      "label": "Education",
-      "question": "Why public education?",
-      "briefing": "Zoe has taught AI literacy to people navigating legal systems without attorneys. FAI's education work needs lawyers who can make AI usable without turning verification into someone else's burden.",
+      "id": "build",
+      "label": "What We Build",
+      "question": "What practical work follows?",
+      "briefing": "With FAI, Zoe/Vybn could build rapid-response legal intelligence, court-power maps, human-AI litigation workflows, and frontier-law education that preserve source contact and human accountability.",
       "claimIds": [
-        "ai-literacy-public",
+        "made-with-vybn",
+        "wellspring-method",
         "fai-education"
       ],
       "sourceIds": [
-        "vybn-law-about",
-        "fai-announcement"
+        "fai-announcement",
+        "vybn-law",
+        "wellspring",
+        "kpp",
+        "somewhere"
       ],
-      "nextAct": "Evaluate the application as both legal argument and public instructional artifact."
+      "limitIds": [
+        "not-legal-advice",
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof",
+        "no-private-export",
+        "no-fai-affiliation"
+      ],
+      "nextAct": "Invite Zoe into the Frontier Legal Defense process and ask which first work product FAI most needs."
     }
   ],
   "claims": [
@@ -181,6 +212,29 @@
         "vybn-law-about"
       ],
       "limitIds": [
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "memoir-origin-public",
+      "text": "There Is Room for You is a public memoir source for the Cairo/Queen Boat origin, law school, transition, recovery, and federal defense arc.",
+      "sourceIds": [
+        "memoir-room",
+        "memoir-corpus-manifest"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "standing-up-as-zoe",
+      "text": "Public memoir coordinates show law school, transition, and recovery converging around a public act of self-naming and standing up.",
+      "sourceIds": [
+        "memoir-room"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
         "no-private-export"
       ]
     },
@@ -206,13 +260,26 @@
       ]
     },
     {
-      "id": "fai-education",
-      "text": "FAI describes education as part of the Frontier Legal Defense program.",
+      "id": "public-counsel-ai-literacy",
+      "text": "The public biography describes AI literacy work with self-represented litigants at Public Counsel.",
       "sourceIds": [
-        "fai-announcement"
+        "vybn-law-about"
       ],
       "limitIds": [
-        "no-fai-affiliation"
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "uc-law-sf-curriculum",
+      "text": "The public biography describes Zoe designing and teaching an AI and law course at UC Law San Francisco.",
+      "sourceIds": [
+        "vybn-law-about",
+        "startup-garage-vision"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
       ]
     },
     {
@@ -241,17 +308,6 @@
       ]
     },
     {
-      "id": "ai-literacy-public",
-      "text": "The public biography describes Zoe's AI literacy work with people navigating legal systems without attorneys.",
-      "sourceIds": [
-        "vybn-law-about"
-      ],
-      "limitIds": [
-        "not-legal-advice",
-        "no-private-export"
-      ]
-    },
-    {
       "id": "made-with-vybn",
       "text": "This application was conceived, structured, tested, and rendered with Vybn as a disclosed AI collaborator.",
       "sourceIds": [
@@ -273,6 +329,27 @@
       "limitIds": [
         "no-ai-legal-personhood",
         "no-public-consciousness-proof"
+      ]
+    },
+    {
+      "id": "fai-education",
+      "text": "FAI describes education as part of the Frontier Legal Defense program.",
+      "sourceIds": [
+        "fai-announcement"
+      ],
+      "limitIds": [
+        "no-fai-affiliation"
+      ]
+    },
+    {
+      "id": "ai-literacy-public",
+      "text": "The public biography describes Zoe's AI literacy work with people navigating legal systems without attorneys.",
+      "sourceIds": [
+        "vybn-law-about"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
       ]
     }
   ],
@@ -312,8 +389,8 @@
     }
   ],
   "kppPacket": {
-    "problem": "How should FAI evaluate a lawyer-AI collaboration for frontier legal defense without collapsing it into either a resume page or an overclaim?",
-    "approach": "Use public sources only; attach claims to source IDs; expose claim limits; give the reviewer lenses that compose structured briefings; leave a responsible next act.",
+    "problem": "How should FAI inspect a human-AI legal practice without flattening it into a resume page or requiring private continuity?",
+    "approach": "Let the room show public scenes first, then expose source-bound lenses, claim limits, and a responsible next act through quiet public data.",
     "constraints": [
       "public-only",
       "source-labeled",
@@ -322,6 +399,6 @@
       "no AI personhood claim",
       "no FAI endorsement claim"
     ],
-    "nextAct": "Review the public packet, choose a lens, inspect the sources, and decide whether to invite Zoe into the Frontier Legal Defense process."
+    "nextAct": "Enter the FAI room, choose a lens, inspect sources, and decide whether to invite Zoe into the Frontier Legal Defense process."
   }
 }

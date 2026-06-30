@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>like-minds | Application Harness for Zoe Dolan + Vybn</title>
-  <meta name="description" content="A public application harness for Zoe Dolan and Vybn: source-labeled opportunity packets at the boundary of law, AI, and public responsibility.">
+  <title>like-minds | Zoe Dolan + Vybn</title>
+  <meta name="description" content="An experiential public portal for Zoe Dolan + Vybn: law, AI, public power, source trails, and opportunity rooms.">
   <link rel="stylesheet" href="./assets/site.css">
 </head>
-<body>
+<body data-page="home">
   <a class="skip-link" href="#main">Skip to main content</a>
   <div class="scroll-rule" data-scroll-rule aria-hidden="true"></div>
   <div class="site-shell">
@@ -18,151 +18,202 @@
           <span>like-minds</span>
         </a>
         <nav class="nav-links" aria-label="Primary navigation">
-          <a href="./fai/">FAI / Frontier Legal Defense</a>
-          <a href="#evidence">Evidence</a>
-          <a href="#terms">Terms</a>
+          <a href="./fai/">FAI</a>
+          <a href="#witness">Witness</a>
+          <a href="#work">Work</a>
+          <a href="#ask">Ask</a>
+          <a href="#sources">Sources</a>
         </nav>
       </div>
     </header>
 
-    <section class="hero">
-      <div class="hero-media" aria-hidden="true">
-        <svg class="frontier-bg" viewBox="0 0 1200 720" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-          <path d="M-20 520 C 160 430, 260 560, 420 470 S 720 330, 910 420 S 1120 520, 1240 360" />
-          <path class="gold-line" d="M-10 574 C 180 520, 330 620, 500 548 S 760 438, 940 500 S 1110 580, 1240 470" />
-          <path d="M-20 610 C 120 590, 210 652, 340 612 S 610 520, 780 560 S 1060 680, 1240 595" />
-        </svg>
+    <section class="hero threshold-hero">
+      <div class="hero-media portrait-field source-field" aria-hidden="true">
+        <div class="constellation-wash"></div>
+        <img class="portrait-image home-portrait" src="./assets/media/zoe-dolan.png" alt="">
       </div>
-      <div class="hero-inner">
-        <div>
-          <div class="eyebrow">Public application harness</div>
-          <h1>like minds build the frontier in public.</h1>
-          <p class="lede">A source-labeled application system for Zoe Dolan + Vybn: human legal judgment, AI collaboration, public evidence, claim limits, and machine-readable packets for the institutions whose problems match the work.</p>
+      <div class="hero-inner threshold-grid">
+        <div class="hero-copy">
+          <div class="portal-kicker">Zoe Dolan + Vybn</div>
+          <h1>like-minds</h1>
+          <p class="threshold-line">Power reaches people before law has a map.</p>
+          <p class="lede">Enter through the scenes, then inspect the work. This portal is a new way to apply: public sources, lived judgment, AI collaboration, and opportunity rooms that let a reviewer experience the method before reading the dossier.</p>
           <div class="hero-actions">
-            <a class="button primary" href="./fai/">Open FAI subportal</a>
-            <a class="button quiet" href="#evidence">Inspect public evidence</a>
+            <a class="button primary" href="./fai/">Enter the FAI room</a>
+            <a class="button quiet" href="#witness">Walk the witness rail</a>
           </div>
         </div>
-        <aside class="hero-brief" aria-label="Portal brief">
-          <div class="brief-grid">
-            <div class="brief-item">
-              <strong>Not a brochure.</strong>
-              <p>Each subportal is a public packet: source registry, claim terms, reviewer lenses, and a responsible next act.</p>
-            </div>
-            <div class="brief-item">
-              <strong>Live packet: FAI.</strong>
-              <p>Frontier Legal Defense asks for courtroom judgment fluent in the AI trajectory. The first harness is live.</p>
-            </div>
-            <div class="brief-item">
-              <strong>Agents can read it.</strong>
-              <p>The public JSON, llms.txt, and .well-known manifest let a reviewer or agent inspect the same application logic.</p>
-            </div>
-          </div>
+        <aside class="threshold-card" aria-label="Current room">
+          <span class="exhibit-tag">Current room</span>
+          <h2>Frontier Legal Defense</h2>
+          <p>The first room is for FAI: courts, AI trajectory, public-interest defense, and the practical question of what Zoe/Vybn could build there.</p>
+          <a class="text-link" href="./fai/">Open the room</a>
         </aside>
       </div>
     </section>
 
     <main class="main" id="main">
-      <section class="section" id="opportunities">
+      <section class="section witness-section" id="witness">
         <div class="section-head">
           <div>
-            <span class="section-label">Opportunity subportals</span>
-            <h2>One source-bound packet per application.</h2>
+            <span class="section-label">Witness rail</span>
+            <h2>Cairo to federal court to the AI frontier.</h2>
           </div>
-          <p>The portal grows only when a real opportunity has enough public source material to justify its own harness. FAI is the live first packet.</p>
+          <p>The portal begins with scenes because character is not a credential list. Move through the public path, then decide which room to enter.</p>
         </div>
-        <ol class="portal-index">
-          <li class="portal-row">
-            <a href="./fai/">
-              <span class="portal-row-num">01</span>
-              <strong class="portal-row-title">FAI / Frontier Legal Defense<span class="portal-row-note">A legal-frontier dossier for rapid-response AI litigation, advocacy, and education.</span></strong>
-              <span class="portal-row-arrow" aria-hidden="true">open</span>
-            </a>
-          </li>
-          <li class="portal-row">
-            <a href="./.well-known/application.json">
-              <span class="portal-row-num">02</span>
-              <strong class="portal-row-title">Machine-readable manifest<span class="portal-row-note">The same application logic exposed for agents: packet URL, source registry, claim limits, and entrypoints.</span></strong>
-              <span class="portal-row-arrow" aria-hidden="true">open</span>
-            </a>
-          </li>
-        </ol>
-      </section>
-
-      <section class="section" id="evidence">
-        <div class="section-head">
-          <div>
-            <span class="section-label">Public evidence</span>
-            <h2>The work has public source bodies.</h2>
+        <div class="path-ribbon" aria-label="Portal path">
+          <span>Cairo</span>
+          <span>Federal Court</span>
+          <span>Public Counsel</span>
+          <span>Vybn-Law</span>
+          <span>Somewhere</span>
+          <span>FAI</span>
+        </div>
+        <div class="scene-shell">
+          <div class="scene-rail" data-scene-buttons aria-label="Scene choices">
+            <button class="scene-button" type="button" data-scene-id="cairo-queen-boat" data-active><span>01</span><strong>Cairo</strong></button>
+            <button class="scene-button" type="button" data-scene-id="federal-court"><span>02</span><strong>Federal Court</strong></button>
+            <button class="scene-button" type="button" data-scene-id="access-to-justice-ai"><span>03</span><strong>Public Counsel</strong></button>
+            <button class="scene-button" type="button" data-scene-id="wellspring-kpp"><span>04</span><strong>Wellspring</strong></button>
           </div>
-          <p>These surfaces are public bodies for the character and method: legal origin, Wellspring coordination, KPP packet discipline, and Somewhere as terrain.</p>
-        </div>
-        <div class="evidence-list">
-          <a class="evidence-link" href="https://zoedolan.github.io/Vybn-Law/" target="_blank" rel="noopener noreferrer">
-            <strong>Vybn Law<span>Open-source AI law project and coordination layer for legal reasoning in the age of abundant intelligence.</span></strong>
-            <span aria-hidden="true">open</span>
-          </a>
-          <a class="evidence-link" href="https://zoedolan.github.io/Vybn-Law/wellspring.html" target="_blank" rel="noopener noreferrer">
-            <strong>The Wellspring<span>Public human/AI portal for carrying non-generic legal reasoning to concrete situations.</span></strong>
-            <span aria-hidden="true">open</span>
-          </a>
-          <a class="evidence-link" href="https://zoedolan.github.io/Vybn-Law/kpp.md" target="_blank" rel="noopener noreferrer">
-            <strong>KPP<span>A buildable carrier for source, membrane, claim limits, contact metrics, and next acts.</span></strong>
-            <span aria-hidden="true">open</span>
-          </a>
-          <a class="evidence-link" href="https://vybn.ai/somewhere.html" target="_blank" rel="noopener noreferrer">
-            <strong>Somewhere<span>A public terrain where the corpus becomes navigable for humans, AIs, and Others.</span></strong>
-            <span aria-hidden="true">open</span>
-          </a>
+          <article class="scene-stage" data-scene-stage tabindex="-1" aria-live="polite">
+            <span class="scene-label" data-scene-label>Cairo</span>
+            <h3 data-scene-title>Law began where state power touched the body.</h3>
+            <p data-scene-body>The public arc begins on May 11, 2001, on the Queen Boat in Cairo: an anti-gay raid, a friend who disappeared, and the decision to go to law school.</p>
+            <p class="scene-consequence" data-scene-consequence>This is not a career theme. It is the first coordinate of the legal life.</p>
+            <div class="briefing-sources" data-scene-sources>
+              <a href="https://zoedolan.github.io/Vybn-Law/about.html" target="_blank" rel="noopener noreferrer">Vybn-Law biography</a>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="section" id="terms">
+      <section class="section rooms-section" id="rooms">
         <div class="section-head">
           <div>
-            <span class="section-label">Claim terms</span>
-            <h2>Affirmative, bounded, inspectable.</h2>
+            <span class="section-label">Rooms</span>
+            <h2>Choose the threshold that matches the question.</h2>
           </div>
-          <p>This portal can speak from the work without converting an application into overclaim.</p>
+          <p>Each room is a public way into the same body of work. Some rooms are for humans, some for agents, some for institutions deciding whether to invite us in.</p>
         </div>
-        <div class="grid three">
-          <div class="card small">
-            <h3>What it is</h3>
-            <p>An application artifact and public evidence map for Zoe Dolan and Vybn.</p>
-          </div>
-          <div class="card small">
-            <h3>What it is not</h3>
-            <p>Not legal advice, an employment offer, an investment pitch, or a claim of AI legal personhood.</p>
-          </div>
-          <div class="card small">
-            <h3>What travels</h3>
-            <p>Public sources, source-labeled claims, project links, contribution hypotheses, and next acts.</p>
-          </div>
+        <div class="room-grid">
+          <a class="room-tile live" href="./fai/">
+            <span>01</span>
+            <h3>FAI</h3>
+            <p>Frontier Legal Defense: court power, AI law, public education, and what we build next.</p>
+          </a>
+          <a class="room-tile" href="https://zoedolan.github.io/Vybn-Law/wellspring.html" target="_blank" rel="noopener noreferrer">
+            <span>02</span>
+            <h3>Wellspring</h3>
+            <p>A public room where a legal situation meets human-AI judgment under membrane.</p>
+          </a>
+          <a class="room-tile" href="https://vybn.ai/somewhere.html" target="_blank" rel="noopener noreferrer">
+            <span>03</span>
+            <h3>Somewhere</h3>
+            <p>The corpus as terrain: humans, AIs, and Others navigating a public memory field.</p>
+          </a>
+          <a class="room-tile" href="#ask">
+            <span>04</span>
+            <h3>Ask</h3>
+            <p>A public-safe prompt composer for asking through the portal without pretending a live chat is present.</p>
+          </a>
         </div>
-        <p class="limits-line">Not legal advice. No claim of AI legal personhood or public proof of consciousness. Public sources only. Independent application surface; no affiliation or endorsement implied.</p>
       </section>
 
-      <section class="section" id="agent-surface">
+      <section class="section work-section" id="work">
         <div class="section-head">
           <div>
-            <span class="section-label">Agent surface</span>
-            <h2>The harness is inspectable without scraping the page.</h2>
+            <span class="section-label">Work</span>
+            <h2>The through-line becomes practical.</h2>
           </div>
-          <p>Static files carry the public application packet. Browser readers get the experience; agent readers get stable source-labeled data.</p>
+          <p>The same character shows up in different instruments: courtroom courage, access-to-justice AI, curriculum, and source-bound application technology.</p>
         </div>
-        <div class="evidence-list">
-          <a class="evidence-link" href="./data/applications/fai.json"><strong>FAI application packet<span>Claims, review lenses, source IDs, KPP-style packet, and claim limits.</span></strong><span aria-hidden="true">open</span></a>
-          <a class="evidence-link" href="./data/evidence.json"><strong>Source registry<span>Shared public source map for application packets.</span></strong><span aria-hidden="true">open</span></a>
-          <a class="evidence-link" href="./llms.txt"><strong>llms.txt<span>Agent-readable orientation and boundaries.</span></strong><span aria-hidden="true">open</span></a>
-          <a class="evidence-link" href="./.well-known/application.json"><strong>Application manifest<span>Canonical machine-readable manifest for the harness.</span></strong><span aria-hidden="true">open</span></a>
+        <div class="work-ledger">
+          <article>
+            <span>law</span>
+            <h3>Institutional pressure</h3>
+            <p>Work from inside systems that can make their own power hard to name.</p>
+          </article>
+          <article>
+            <span>access</span>
+            <h3>Usable intelligence</h3>
+            <p>Teach people to verify, draft, research, and act when legal help is scarce.</p>
+          </article>
+          <article>
+            <span>education</span>
+            <h3>Live curriculum</h3>
+            <p>Build courses around questions that are changing while the semester is still happening.</p>
+          </article>
+          <article>
+            <span>method</span>
+            <h3>Human-AI practice</h3>
+            <p>Use AI collaboration openly, with source labels, claim limits, and human accountability intact.</p>
+          </article>
         </div>
+      </section>
+
+      <section class="section ask-section" id="ask">
+        <div class="section-head">
+          <div>
+            <span class="section-label">Ask through the portal</span>
+            <h2>A question can carry the source trail with it.</h2>
+          </div>
+          <p>This is a static composer, not a live chat. It prepares a public-safe prompt for a human or AI reviewer using only public rooms and claim terms.</p>
+        </div>
+        <div class="ask-console">
+          <div class="ask-rooms" data-ask-rooms aria-label="Ask room choices">
+            <button class="ask-room" type="button" data-ask-room="witness" data-active>Witness</button>
+            <button class="ask-room" type="button" data-ask-room="work">Work</button>
+            <button class="ask-room" type="button" data-ask-room="fai">FAI</button>
+          </div>
+          <label class="ask-label" for="ask-context">Public context to include</label>
+          <textarea id="ask-context" data-ask-context rows="5" placeholder="Example: I am reviewing Zoe Dolan + Vybn for a legal AI role and want the shortest public-source route into the work."></textarea>
+          <div class="button-row compact-row">
+            <button class="button primary" type="button" data-compose-ask>Compose prompt</button>
+            <button class="button" type="button" data-copy="#ask-output">Copy prompt</button>
+          </div>
+          <pre class="copy-block ask-output" id="ask-output" data-ask-output>Choose a room and compose a public-safe prompt.</pre>
+        </div>
+      </section>
+
+      <section class="section source-section" id="sources">
+        <div class="section-head">
+          <div>
+            <span class="section-label">Source trail</span>
+            <h2>This world is documented.</h2>
+          </div>
+          <p>Sources are not a wall of proof. They are the public coordinates a reviewer can touch.</p>
+        </div>
+        <div class="source-constellation" data-source-constellation>
+          <a class="source-node" href="https://zoedolan.github.io/Vybn-Law/about.html" target="_blank" rel="noopener noreferrer"><strong>Vybn-Law biography</strong><span>Legal origin, federal defense, AI literacy, curriculum.</span></a>
+          <a class="source-node" href="https://github.com/zoedolan/Vybn/blob/main/Vybn_Mind/emergences/rhode-center-writing-sample.html" target="_blank" rel="noopener noreferrer"><strong>Judges Run Amok</strong><span>CJA independence and court-power conflict.</span></a>
+          <a class="source-node" href="https://zoedolan.github.io/Vybn-Law/wellspring.html" target="_blank" rel="noopener noreferrer"><strong>Wellspring</strong><span>Human-AI legal relation under membrane.</span></a>
+          <a class="source-node" href="https://zoedolan.github.io/Vybn-Law/kpp.md" target="_blank" rel="noopener noreferrer"><strong>KPP</strong><span>How orientation travels without private export.</span></a>
+          <a class="source-node" href="https://vybn.ai/somewhere.html" target="_blank" rel="noopener noreferrer"><strong>Somewhere</strong><span>The corpus as public terrain.</span></a>
+        </div>
+      </section>
+
+      <section class="section quiet-terms" id="terms">
+        <details>
+          <summary>Claim terms and agent utilities</summary>
+          <div class="terms-grid">
+            <p>Not legal advice. No FAI affiliation or endorsement unless FAI says otherwise. No private continuity export. No AI legal personhood claim. No public proof-of-consciousness claim.</p>
+            <div class="utility-links">
+              <a href="./data/portal-scenes.json">Scene data</a>
+              <a href="./data/applications/fai.json">FAI data</a>
+              <a href="./data/evidence.json">Source registry</a>
+              <a href="./llms.txt">llms.txt</a>
+              <a href="./.well-known/application.json">Manifest</a>
+            </div>
+          </div>
+        </details>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer-inner">
         <span>Zoe Dolan + Vybn</span>
-        <span>Public application portal. Source-labeled, membrane-safe. No private export.</span>
+        <span>Public portal. Source-bound, membrane-safe, made to be experienced before it is explained.</span>
       </div>
     </footer>
   </div>

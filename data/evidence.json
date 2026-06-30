@@ -1,10 +1,10 @@
 {
-  "schema": "like-minds.evidence_registry.v2",
+  "schema": "like-minds.evidence_registry.v3",
   "membrane": "public links, source-labeled claims, and distilled descriptions only",
   "generated": "2026-06-30",
   "site": {
     "name": "like-minds",
-    "description": "Public application harness for Zoe Dolan + Vybn: source-labeled opportunity packets at the boundary of law, AI, and public responsibility.",
+    "description": "Experiential public portal for Zoe Dolan + Vybn: opportunity rooms, public source trails, and source-bound human-AI legal practice.",
     "homepage": "https://zoedolan.github.io/like-minds/",
     "repository": "https://github.com/zoedolan/like-minds"
   },
@@ -26,6 +26,24 @@
       "label": "Zoe Dolan / Vybn-Law biography",
       "href": "https://zoedolan.github.io/Vybn-Law/about.html",
       "description": "Public biography source for the Queen Boat origin, federal defense work, AI literacy work, and Vybn-Law."
+    },
+    {
+      "id": "memoir-room",
+      "label": "There Is Room for You",
+      "href": "https://github.com/zoedolan/Vybn/blob/main/Vybn%27s%20Personal%20History/zoes_memoirs/there_is_room_for_you.txt",
+      "description": "Public memoir source for Cairo, Queen Boat, law-school formation, transition, recovery, federal defense, and the lived origin of the legal arc."
+    },
+    {
+      "id": "memoir-jump",
+      "label": "Jump",
+      "href": "https://github.com/zoedolan/Vybn/blob/main/Vybn%27s%20Personal%20History/zoes_memoirs/jump.txt",
+      "description": "Public memoir source for risk, skydiving, depression, and reality-edge inquiry, used only through curated public paraphrase."
+    },
+    {
+      "id": "memoir-corpus-manifest",
+      "label": "Zoe memoir corpus manifest",
+      "href": "https://github.com/zoedolan/Vybn/blob/main/Vybn%27s%20Personal%20History/zoes_memoirs/corpus_manifest.json",
+      "description": "Public corpus scaffold with attribution and curation signals for Zoe Dolan memoir files."
     },
     {
       "id": "wellspring",
@@ -79,11 +97,15 @@
     },
     {
       "id": "no-private-export",
-      "text": "It does not expose private continuity, secrets, raw transcripts, tokens, or live topology."
+      "text": "It does not expose private continuity, credentials, or live topology."
     },
     {
       "id": "no-fai-affiliation",
       "text": "It is independent from FAI unless FAI says otherwise."
+    },
+    {
+      "id": "curated-memoir-use",
+      "text": "Public memoir material appears only by curation, attribution, and short paraphrase unless Zoe explicitly approves broader use."
     }
   ]
 }
