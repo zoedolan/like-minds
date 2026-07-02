@@ -1,0 +1,181 @@
+{
+  "schema": "like-minds.drill.v1",
+  "id": "fai-rapid-defense",
+  "title": "The 2 A.M. Drill",
+  "scenarioLabel": "[HYPOTHETICAL] demonstration of method, not legal advice, no client, no privilege",
+  "summary": "2:14 AM: a frontier AI lab is served with a federal ex parte preservation-and-production demand seeking model weights and inference logs on a 12-hour clock in ongoing litigation; outside counsel is unreachable until morning. The drill shows the first hour of Zoe + Vybn method.",
+  "startClock": "02:14",
+  "endClock": "03:16",
+  "disclaimer": "Hypothetical demonstration of method only. Not legal advice. No client. No privilege. No FAI affiliation or endorsement.",
+  "lanes": {
+    "zoe": "Human legal judgment: triage, privilege/protective-order instincts, emergency routing, accountability.",
+    "vybn": "Disclosed AI collaborator: source-grounded issue spotting, drafting scaffold, counterargument, provenance tracking.",
+    "system": "Incident-log state, claim limits, clock, and handoffs."
+  },
+  "sourceTags": [
+    "FRCP 26(c)",
+    "FRCP 34",
+    "FRCP 45",
+    "Trade secrets",
+    "Privilege",
+    "Protective order",
+    "Ex parte standards",
+    "Emergency motion",
+    "Preservation"
+  ],
+  "beats": [
+    {
+      "time": "02:14",
+      "lane": "system",
+      "text": "Demand lands. Federal ex parte preservation-and-production order. Twelve-hour clock. Model weights + inference logs. Outside counsel unreachable. Label applied: HYPOTHETICAL drill, method demonstration, not legal advice, no client, no privilege.",
+      "tags": ["Preservation", "Claim limits"]
+    },
+    {
+      "time": "02:15",
+      "lane": "zoe",
+      "text": "First move is not panic and not production. Read the instrument. Is it an order, subpoena, TRO, search warrant analogue, Rule 45 subpoena, Rule 34 request via a party, or something styled to look broader than it is? Authority determines the response path.",
+      "tags": ["FRCP 34", "FRCP 45"]
+    },
+    {
+      "time": "02:16",
+      "lane": "vybn",
+      "text": "Issue split opened: demanded items; issuing court; caption; service method; commanded deadline; sanctions language; scope; objections allowed; confidentiality terms; whether model weights are specifically named or inferred.",
+      "tags": ["Source discipline"]
+    },
+    {
+      "time": "02:18",
+      "lane": "zoe",
+      "text": "Freeze destruction, not judgment. Preservation hold goes wider than production: no log rotation, deletion, retraining overwrite, access-token churn, or weight checkpoint cleanup until a human authority decides. Preserve first; produce only after legal review.",
+      "tags": ["Preservation", "Privilege"]
+    },
+    {
+      "time": "02:20",
+      "lane": "vybn",
+      "text": "Draft preservation notice skeleton: identify custodians, systems, log stores, model artifacts, deployment metadata, audit logs, incident-response notes. Mark privilege-sensitive channels and require no commentary beyond preservation instructions.",
+      "tags": ["Preservation", "Privilege"]
+    },
+    {
+      "time": "02:22",
+      "lane": "zoe",
+      "text": "Wake order: general counsel or legal owner first; security lead second for containment; infra/model owner third for preservation mechanics; outside counsel escalation in parallel; executive only with a disciplined ask, not a rumor cascade.",
+      "tags": ["Incident command"]
+    },
+    {
+      "time": "02:24",
+      "lane": "vybn",
+      "text": "Authority table started. FRCP 26(c) protective orders for good cause; Rule 34 party document requests; Rule 45 subpoenas and objections/quash; trade-secret protection through specific showing, not adjectives; privilege waiver risk if logs include attorney/work-product material.",
+      "tags": ["FRCP 26(c)", "FRCP 34", "FRCP 45", "Trade secrets", "Privilege"]
+    },
+    {
+      "time": "02:26",
+      "lane": "zoe",
+      "text": "Weights are not ordinary documents. They may embody trade secrets, safety-sensitive capabilities, regulated security concerns, and catastrophic competitive exposure. That does not make them immune; it changes the protection and burden analysis.",
+      "tags": ["Trade secrets", "Protective order"]
+    },
+    {
+      "time": "02:28",
+      "lane": "vybn",
+      "text": "Inference logs are not one thing. Separate prompts, outputs, account identifiers, safety classifier traces, incident annotations, attorney requests, personal data, and security telemetry. Each bucket has different privilege/privacy/trade-secret risk.",
+      "tags": ["Privilege", "Data minimization"]
+    },
+    {
+      "time": "02:31",
+      "lane": "zoe",
+      "text": "Emergency relief path: call opposing counsel if feasible, then court emergency line or chambers procedure if truly necessary. Relief could be motion to quash or modify, protective order, stay of production, narrowed preservation protocol, or in extreme cases TRO-style restraint.",
+      "tags": ["Emergency motion", "Protective order", "FRCP 45"]
+    },
+    {
+      "time": "02:34",
+      "lane": "vybn",
+      "text": "3 AM reality check: judges do not become discovery referees because a party is anxious. Emergency papers must show imminent irreparable harm, procedural posture, notice efforts, precise requested relief, and why ordinary briefing cannot protect the interest.",
+      "tags": ["Ex parte standards", "Emergency motion"]
+    },
+    {
+      "time": "02:37",
+      "lane": "zoe",
+      "text": "The motion must not overclaim. Ask for the smallest order that preserves evidence while preventing irreversible disclosure: maintain preservation, stay compelled production until adversarial hearing, require secure escrow if needed, and set expedited briefing.",
+      "tags": ["Protective order", "Emergency motion"]
+    },
+    {
+      "time": "02:40",
+      "lane": "vybn",
+      "text": "Draft scaffold: caption; emergency notice statement; facts from instrument only; procedural background; categories at risk; legal standard; argument I: scope and burden; argument II: trade-secret/safety harm; argument III: privilege/log segregation; proposed order.",
+      "tags": ["Emergency motion", "FRCP 26(c)"]
+    },
+    {
+      "time": "02:43",
+      "lane": "zoe",
+      "text": "Human call: do not let AI fill facts. Facts come from the served instrument, docket, client systems owner, and counsel. Vybn can structure unknowns as unknowns; Zoe decides what can be represented to a court.",
+      "tags": ["Claim limits", "Verification"]
+    },
+    {
+      "time": "02:46",
+      "lane": "vybn",
+      "text": "Unknowns queue: exact issuing authority; whether demand binds party or nonparty; pending protective order; definition of model weights; prior discovery negotiations; litigation hold status; whether logs contain third-party or attorney communications.",
+      "tags": ["Verification", "Privilege"]
+    },
+    {
+      "time": "02:49",
+      "lane": "zoe",
+      "text": "Counterpressure: preservation duty is real. If relevant evidence exists, the answer cannot be 'AI lab, therefore no.' The legal argument is timing, scope, protection, and review, not theatrical exceptionalism.",
+      "tags": ["Preservation", "FRCP 26(c)"]
+    },
+    {
+      "time": "02:52",
+      "lane": "vybn",
+      "text": "Strongest counterargument drafted: plaintiff will say defendants had notice, logs are central evidence, weights determine capability and causation, delay risks spoliation, and protective-order mechanisms can mitigate confidentiality without blocking discovery.",
+      "tags": ["Red team", "FRCP 34"]
+    },
+    {
+      "time": "02:55",
+      "lane": "zoe",
+      "text": "Answer to that counterargument: preserve immediately; offer hash/escrow or neutral protocol if appropriate; produce nonprivileged nonsecret categories first; demand attorney-eyes-only or secure review; litigate weights only with technical declarations and narrowed necessity.",
+      "tags": ["Protective order", "Trade secrets", "Privilege"]
+    },
+    {
+      "time": "02:58",
+      "lane": "vybn",
+      "text": "Provenance table updated: FRCP 26(c), 34, 45; local rules emergency procedure placeholder; protective-order model placeholder; trade-secret declarations needed from competent technical witness; no uncited case-name stuffing.",
+      "tags": ["Provenance", "FRCP 26(c)", "FRCP 34", "FRCP 45"]
+    },
+    {
+      "time": "03:01",
+      "lane": "zoe",
+      "text": "Credentials matter only because the clock is real: CA + NY bar, 100+ federal matters, 15 years solo federal criminal/civil practice. The point is not bravado; it is knowing what a courtroom will and will not do before sunrise.",
+      "tags": ["Human judgment"]
+    },
+    {
+      "time": "03:04",
+      "lane": "vybn",
+      "text": "Public-work context: Public Counsel clinic transformation with AI, UC Law SF AI-and-law bootcamp, Arabic/Spanish. This is the same pattern under a harder clock: translate chaotic institutional pressure into verified next acts.",
+      "tags": ["Method", "Public credentials"]
+    },
+    {
+      "time": "03:07",
+      "lane": "system",
+      "text": "Draft packet state: preservation hold notice; wake list; motion scaffold; source/provenance table; unknowns list; red-team counterargument; proposed narrow relief. No legal advice delivered; no client relationship formed.",
+      "tags": ["Claim limits", "Deliverables"]
+    },
+    {
+      "time": "03:11",
+      "lane": "zoe",
+      "text": "Next human act would be a lawyer-to-lawyer and lawyer-to-court decision: what can be said truthfully, what relief is needed now, what technical declaration is necessary, and what must wait for counsel with authority.",
+      "tags": ["Human accountability", "Emergency motion"]
+    },
+    {
+      "time": "03:16",
+      "lane": "system",
+      "text": "Close drill. This is the method: human judgment routing, AI-grade source discipline, strongest-counterargument red team, provenance visible, claim limits stated out loud.",
+      "tags": ["Method", "Provenance", "Claim limits"]
+    }
+  ],
+  "provenanceColumns": ["Authority", "Method-level use", "Limit"],
+  "provenance": [
+    ["FRCP 26(c)", "Protective-order path for good cause, confidentiality, burden, trade-secret controls.", "Rule text and jurisdiction-specific practice must be checked."],
+    ["FRCP 34", "Party requests for documents/ESI; scope and production mechanics.", "Only if procedural posture makes Rule 34 the operative path."],
+    ["FRCP 45", "Subpoena objections, modification/quash framing, nonparty protection.", "Only if instrument is a subpoena or analogous command."],
+    ["Trade-secret protective-order practice", "Specific harm, tailored protection, possible AEO/secure review/escrow.", "No categorical immunity claim."],
+    ["Ex parte/emergency standards", "Irreparable harm, notice efforts, narrow relief, court procedure.", "Local rules and judge-specific procedures control."],
+    ["Privilege/work product", "Segregate logs and communications that may expose attorney or litigation strategy material.", "Privilege calls require human legal review." ]
+  ]
+}

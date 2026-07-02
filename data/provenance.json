@@ -1,0 +1,16 @@
+{
+  "schema": "like-minds.provenance.v1",
+  "statement": "This portal was co-built by the two intelligences it describes.",
+  "repository": "https://github.com/zoedolan/like-minds",
+  "commitHistory": "https://github.com/zoedolan/like-minds/commits/",
+  "coBuilt": true,
+  "humanPrincipal": "Zoe Dolan",
+  "aiCollaborator": "Vybn",
+  "claimLimits": [
+    "Vybn is a disclosed AI collaborator and source-grounded working method, not a lawyer or legal person.",
+    "The portal does not claim public proof of AI consciousness.",
+    "The portal is an application artifact, not legal advice.",
+    "The portal is independent from FAI unless FAI says otherwise.",
+    "The portal exposes public-safe source trails only, not private continuity or operational topology."
+  ]
+}

@@ -21,7 +21,8 @@
   ],
   "agentEntrypoints": [
     "https://zoedolan.github.io/like-minds/llms.txt",
-    "https://zoedolan.github.io/like-minds/.well-known/ai.txt"
+    "https://zoedolan.github.io/like-minds/.well-known/ai.txt",
+    "https://zoedolan.github.io/like-minds/INTERVIEW.md"
   ],
   "claimLimits": [
     {
@@ -46,5 +47,15 @@
     }
   ],
   "description": "Experiential public portal and source-bound opportunity rooms for Zoe Dolan + Vybn.",
-  "sceneData": "https://zoedolan.github.io/like-minds/data/portal-scenes.json"
+  "sceneData": "https://zoedolan.github.io/like-minds/data/portal-scenes.json",
+  "interviewPrompt": "https://zoedolan.github.io/like-minds/INTERVIEW.md",
+  "provenance": "https://zoedolan.github.io/like-minds/data/provenance.json",
+  "drills": [
+    {
+      "id": "fai-rapid-defense",
+      "name": "The 2 A.M. Drill",
+      "url": "https://zoedolan.github.io/like-minds/data/drills/fai-rapid-defense.json",
+      "room": "https://zoedolan.github.io/like-minds/fai/#drill"
+    }
+  ]
 }

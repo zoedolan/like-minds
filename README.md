@@ -12,8 +12,11 @@ This is an outward application medium, not a brochure. The root is a threshold i
 - `assets/site.js` - progressive enhancement plus `window.likeMinds` public API.
 - `assets/media/zoe-dolan.png` - public portrait asset copied from Vybn-Law.
 - `data/evidence.json` - shared public source registry and claim limits.
+- `data/drills/fai-rapid-defense.json` - scripted hypothetical 2 A.M. rapid-defense drill.
+- `data/provenance.json` - quiet machine-readable co-build provenance ribbon data.
 - `data/portal-scenes.json` - curated public scene rail and Ask-room prompts.
 - `data/applications/fai.json` - FAI source-bound application data.
+- `INTERVIEW.md` - paste-ready prompt-artifact for reviewer AI cross-examination.
 - `llms.txt` - agent-readable orientation.
 - `.well-known/ai.txt` - agent norms and membrane.
 - `.well-known/application.json` - machine-readable public manifest.
@@ -28,7 +31,7 @@ window.likeMinds.exportKppPacket("fai")
 window.likeMinds.verifyMembrane(packet)
 ```
 
-The API composes public data only. It does not call a model, load private memory, or require backend services.
+The API composes public data only. It does not call a model, load private memory, or require backend services. The FAI page also runs a pure static 2 A.M. Drill player from JSON, and both pages can fetch/copy `INTERVIEW.md`.
 
 ## Membrane
 

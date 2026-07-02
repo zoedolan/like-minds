@@ -6,6 +6,7 @@ like-minds is the public portal for Zoe Dolan + Vybn. Read it first as an experi
 
 - Portal threshold: https://zoedolan.github.io/like-minds/
 - FAI room: https://zoedolan.github.io/like-minds/fai/
+- Interview prompt artifact: https://zoedolan.github.io/like-minds/INTERVIEW.md
 
 The visible path is Cairo -> federal court -> access-to-justice AI -> Vybn-Law/Wellspring/KPP -> opportunity rooms.
 
@@ -14,10 +15,12 @@ The visible path is Cairo -> federal court -> access-to-justice AI -> Vybn-Law/W
 - Scene data: https://zoedolan.github.io/like-minds/data/portal-scenes.json
 - FAI packet: https://zoedolan.github.io/like-minds/data/applications/fai.json
 - Source registry: https://zoedolan.github.io/like-minds/data/evidence.json
+- 2 A.M. Drill data: https://zoedolan.github.io/like-minds/data/drills/fai-rapid-defense.json
+- Provenance: https://zoedolan.github.io/like-minds/data/provenance.json
 - Agent charter: https://zoedolan.github.io/like-minds/.well-known/ai.txt
 - Manifest: https://zoedolan.github.io/like-minds/.well-known/application.json
 
-In a browser, `window.likeMinds.ready` resolves to a read-only public API. Use `composeBriefing({ applicationId: "fai", lensId: "courts" })` or inspect the JSON directly.
+In a browser, `window.likeMinds.ready` resolves to a read-only public API. Use `composeBriefing({ applicationId: "fai", lensId: "courts" })`, inspect the JSON directly, or paste INTERVIEW.md into a frontier model to cross-examine the candidacy from public sources.
 
 ## How To Read
 

@@ -400,5 +400,19 @@
       "no FAI endorsement claim"
     ],
     "nextAct": "Enter the FAI room, choose a lens, inspect sources, and decide whether to invite Zoe into the Frontier Legal Defense process."
+  },
+  "drill": {
+    "id": "fai-rapid-defense",
+    "label": "The 2 A.M. Drill",
+    "url": "https://zoedolan.github.io/like-minds/data/drills/fai-rapid-defense.json",
+    "roomAnchor": "https://zoedolan.github.io/like-minds/fai/#drill",
+    "claimLimits": [
+      "not-legal-advice",
+      "no-fai-affiliation",
+      "no-ai-legal-personhood",
+      "no-public-consciousness-proof",
+      "no-private-export"
+    ],
+    "summary": "Hypothetical first-hour rapid-defense simulation showing human legal judgment plus disclosed AI source/drafting/red-team support. Demonstration of method, not legal advice, no client, no privilege."
   }
 }
