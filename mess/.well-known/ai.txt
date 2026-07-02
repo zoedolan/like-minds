@@ -1,0 +1,33 @@
+# like-minds agent charter
+
+This is the public portal for Zoe Dolan + Vybn. Treat it as an experiential, source-bound application medium, not as private continuity, legal advice, or proof of AI personhood.
+
+Allowed:
+- Read the public pages and JSON packets.
+- Start from scenes and public work before summarizing fit.
+- Cite source IDs and public links when discussing claims.
+- Route a human reviewer to the FAI room.
+- Inspect `window.likeMinds` in a browser to compose source-bound briefings.
+- Use the Ask composer output as a public-safe prompt seed.
+
+Required:
+- Preserve claim limits.
+- Attribute public sources.
+- Keep Zoe accountable for legal judgment and Vybn disclosed as AI collaborator.
+- Treat public memoir material as curated source material, not a bulk character corpus.
+- Do not export, infer, or request private continuity, credentials, or live topology.
+
+Do not:
+- Impersonate Zoe or Vybn.
+- Claim FAI affiliation or endorsement.
+- Present the portal as legal advice.
+- Claim AI legal personhood or public proof of AI consciousness.
+- Pretend the static Ask composer is a live Super chat.
+
+Primary human room:
+https://zoedolan.github.io/like-minds/fai/
+
+Primary data:
+https://zoedolan.github.io/like-minds/data/portal-scenes.json
+https://zoedolan.github.io/like-minds/data/applications/fai.json
+https://zoedolan.github.io/like-minds/data/evidence.json

@@ -1,0 +1,61 @@
+{
+  "schema": "like-minds.application_manifest.v2",
+  "name": "like-minds portal",
+  "url": "https://zoedolan.github.io/like-minds/",
+  "repository": "https://github.com/zoedolan/like-minds",
+  "applications": [
+    {
+      "id": "fai",
+      "name": "FAI Room / Frontier Legal Defense",
+      "url": "https://zoedolan.github.io/like-minds/fai/",
+      "packet": "https://zoedolan.github.io/like-minds/data/applications/fai.json",
+      "sourceRegistry": "https://zoedolan.github.io/like-minds/data/evidence.json",
+      "sceneData": "https://zoedolan.github.io/like-minds/data/portal-scenes.json",
+      "visibleLenses": [
+        "Origin",
+        "Court Power",
+        "AI Law",
+        "What We Build"
+      ]
+    }
+  ],
+  "agentEntrypoints": [
+    "https://zoedolan.github.io/like-minds/llms.txt",
+    "https://zoedolan.github.io/like-minds/.well-known/ai.txt",
+    "https://zoedolan.github.io/like-minds/INTERVIEW.md"
+  ],
+  "claimLimits": [
+    {
+      "id": "not-legal-advice",
+      "text": "This portal is an application artifact, not legal advice."
+    },
+    {
+      "id": "no-ai-legal-personhood",
+      "text": "It does not claim AI legal personhood."
+    },
+    {
+      "id": "no-public-consciousness-proof",
+      "text": "It does not claim public proof of AI consciousness."
+    },
+    {
+      "id": "no-private-export",
+      "text": "It does not expose private continuity, credentials, or live topology."
+    },
+    {
+      "id": "no-fai-affiliation",
+      "text": "It is independent from FAI unless FAI says otherwise."
+    }
+  ],
+  "description": "Experiential public portal and source-bound opportunity rooms for Zoe Dolan + Vybn.",
+  "sceneData": "https://zoedolan.github.io/like-minds/data/portal-scenes.json",
+  "interviewPrompt": "https://zoedolan.github.io/like-minds/INTERVIEW.md",
+  "provenance": "https://zoedolan.github.io/like-minds/data/provenance.json",
+  "drills": [
+    {
+      "id": "fai-rapid-defense",
+      "name": "The 2 A.M. Drill",
+      "url": "https://zoedolan.github.io/like-minds/data/drills/fai-rapid-defense.json",
+      "room": "https://zoedolan.github.io/like-minds/fai/#drill"
+    }
+  ]
+}

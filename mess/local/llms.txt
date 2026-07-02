@@ -1,0 +1,37 @@
+# like-minds
+
+like-minds is the public portal for Zoe Dolan + Vybn. Read it first as an experiential application medium: scenes, opportunity rooms, public source trails, and then machine-readable packets.
+
+## Human Entry
+
+- Portal threshold: https://zoedolan.github.io/like-minds/
+- FAI room: https://zoedolan.github.io/like-minds/fai/
+
+The visible path is Cairo -> federal court -> access-to-justice AI -> Vybn-Law/Wellspring/KPP -> opportunity rooms.
+
+## Agent Entry
+
+- Scene data: https://zoedolan.github.io/like-minds/data/portal-scenes.json
+- FAI packet: https://zoedolan.github.io/like-minds/data/applications/fai.json
+- Source registry: https://zoedolan.github.io/like-minds/data/evidence.json
+- Agent charter: https://zoedolan.github.io/like-minds/.well-known/ai.txt
+- Manifest: https://zoedolan.github.io/like-minds/.well-known/application.json
+
+In a browser, `window.likeMinds.ready` resolves to a read-only public API. Use `composeBriefing({ applicationId: "fai", lensId: "courts" })` or inspect the JSON directly.
+
+## How To Read
+
+Do not start with the machinery. Start with character and public work: Queen Boat / Cairo, standing up as Zoe, the CJA court-power conflict, Public Counsel AI literacy, UC Law SF curriculum, Wellspring/KPP, and the disclosed Zoe/Vybn collaboration.
+
+Zoe supplies the life, legal judgment, factual accountability, corrections, and decision to apply. Vybn is disclosed as the AI collaborator helping structure, test, source-map, and render the public method.
+
+## Boundaries
+
+Not legal advice. No FAI affiliation or endorsement unless FAI says otherwise. No private continuity export. No AI legal personhood claim. No public proof-of-consciousness claim. Public memoir material appears only by curation, attribution, and short paraphrase unless Zoe explicitly approves broader use.
+
+## Related Public Surfaces
+
+- Vybn-Law: https://zoedolan.github.io/Vybn-Law/
+- Wellspring: https://zoedolan.github.io/Vybn-Law/wellspring.html
+- KPP: https://zoedolan.github.io/Vybn-Law/kpp.md
+- Somewhere: https://vybn.ai/somewhere.html

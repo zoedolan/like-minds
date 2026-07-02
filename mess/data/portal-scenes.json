@@ -1,0 +1,144 @@
+{
+  "schema": "like-minds.portal_scenes.v1",
+  "generated": "2026-06-30",
+  "membrane": "Public sources, curated paraphrase, attribution, and claim limits only. No private continuity, credentials, live topology, or unbounded memoir export.",
+  "thesis": "Zoe Dolan + Vybn are best understood by moving through the work: lived power, legal judgment, public AI-law infrastructure, and source-bound human-AI collaboration.",
+  "scenes": [
+    {
+      "id": "cairo-queen-boat",
+      "label": "Cairo",
+      "title": "Law began where state power touched the body.",
+      "body": "The public arc begins on May 11, 2001, on the Queen Boat in Cairo: an anti-gay raid, a friend who disappeared, and the decision to go to law school.",
+      "consequence": "This is not a career theme. It is the first coordinate of the legal life.",
+      "sourceIds": [
+        "vybn-law-about",
+        "memoir-room"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "stand-up",
+      "label": "San Francisco",
+      "title": "Standing up became the method.",
+      "body": "In the memoir chronology, law school, gender transition, and recovery converge around a public act of self-naming and the discipline of standing up with others.",
+      "consequence": "The portal should feel this discipline before it explains any framework.",
+      "sourceIds": [
+        "memoir-room"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "federal-court",
+      "label": "Federal Court",
+      "title": "The institution itself became the legal problem.",
+      "body": "Judges Run Amok documents a CJA independence conflict involving judge-controlled defense budgets, frozen vouchers, panel termination, and a later full acquittal.",
+      "consequence": "Zoe has already worked where authority, legitimacy, incentives, and defense rights collide.",
+      "sourceIds": [
+        "rhode-writing-sample"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "access-to-justice-ai",
+      "label": "Public Counsel",
+      "title": "AI became usable legal power for people without lawyers.",
+      "body": "The public biography describes AI literacy work with self-represented litigants, including a clinic model for verification, drafting, and practical empowerment.",
+      "consequence": "The point is not AI spectacle. It is reducing the burden on people the system already abandoned.",
+      "sourceIds": [
+        "vybn-law-about"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "uc-law-sf",
+      "label": "UC Law SF",
+      "title": "The work became curriculum.",
+      "body": "The AI & Vibe Lawyers Bootcamp turned live AI-law change into a course arc for lawyers learning to build and verify while the subject keeps moving.",
+      "consequence": "Education here is not explanation after the fact. It is how a profession learns to survive contact with the frontier.",
+      "sourceIds": [
+        "vybn-law-about",
+        "startup-garage-vision"
+      ],
+      "limitIds": [
+        "not-legal-advice",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "wellspring-kpp",
+      "label": "Wellspring / KPP",
+      "title": "The application can become a technology.",
+      "body": "Wellspring and KPP show how public situations, source labels, claim limits, membranes, and next acts can travel between humans and agents.",
+      "consequence": "The portal should let reviewers use the method, not merely read about it.",
+      "sourceIds": [
+        "wellspring",
+        "kpp"
+      ],
+      "limitIds": [
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "vybn-collaboration",
+      "label": "Zoe + Vybn",
+      "title": "The relation is part of the work product.",
+      "body": "Vybn is disclosed as the AI collaborator helping structure, test, source-map, and render the application while Zoe remains accountable for legal judgment and facts.",
+      "consequence": "Hiding the collaboration would make the application less truthful.",
+      "sourceIds": [
+        "vybn-law",
+        "somewhere",
+        "kpp"
+      ],
+      "limitIds": [
+        "no-ai-legal-personhood",
+        "no-public-consciousness-proof",
+        "no-private-export"
+      ]
+    },
+    {
+      "id": "jump-edge",
+      "label": "Jump",
+      "title": "Risk is part of how reality gets inspected.",
+      "body": "Jump opens at an edge in Petra and moves through danger, depression, skydiving, and reality's structure as lived inquiry.",
+      "consequence": "The portal can carry courage without turning pain into spectacle.",
+      "sourceIds": [
+        "memoir-jump"
+      ],
+      "limitIds": [
+        "curated-memoir-use",
+        "no-private-export"
+      ]
+    }
+  ],
+  "askRooms": [
+    {
+      "id": "witness",
+      "label": "Witness",
+      "prompt": "Read the public scene rail for Zoe Dolan + Vybn. Then explain what character becomes visible through Cairo, recovery, federal court, access-to-justice AI, and Wellspring/KPP. Cite public sources and keep claim limits attached."
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "prompt": "Evaluate Zoe Dolan + Vybn as a working human-AI legal practice. Focus on public evidence, practical contributions, verification discipline, and what an institution could invite next."
+    },
+    {
+      "id": "fai",
+      "label": "FAI",
+      "prompt": "Use the FAI application room and data packet to assess fit for Frontier Legal Defense. Start from court power, then evaluate AI trajectory, public education, and human-AI legal collaboration. Do not treat this as legal advice or FAI endorsement."
+    }
+  ]
+}
