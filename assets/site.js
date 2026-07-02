@@ -279,6 +279,142 @@ function hydrateAskConsoles() {
   });
 }
 
+
+async function copyText(text, button) {
+  const value = String(text || "").trim();
+  if (!value) return;
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(value);
+    } else {
+      const area = document.createElement("textarea");
+      area.value = value;
+      area.setAttribute("readonly", "");
+      area.style.position = "fixed";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      document.execCommand("copy");
+      area.remove();
+    }
+    if (button) {
+      button.dataset.copied = "true";
+      setTimeout(() => { delete button.dataset.copied; }, 1800);
+    }
+  } catch (error) {
+    console.error(error);
+    if (button) button.textContent = "Copy failed — open raw file";
+  }
+}
+
+async function fetchText(relative) {
+  const response = await fetch(resolveUrl(relative), { cache: "no-store" });
+  if (!response.ok) throw new Error(`Failed to load ${relative}: ${response.status}`);
+  return response.text();
+}
+
+function hydrateFetchCopies() {
+  document.querySelectorAll("[data-copy-fetch]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      await copyText(await fetchText(button.dataset.copyFetch), button);
+    });
+  });
+}
+
+function renderDrillBeat(beat) {
+  const row = document.createElement("article");
+  row.className = "drill-beat";
+  row.dataset.lane = beat.lane;
+  const time = document.createElement("span");
+  time.className = "drill-time";
+  time.textContent = beat.time;
+  const lane = document.createElement("span");
+  lane.className = "drill-lane";
+  lane.textContent = beat.lane;
+  const body = document.createElement("div");
+  const text = document.createElement("div");
+  text.className = "drill-text";
+  text.textContent = beat.text;
+  const tags = document.createElement("div");
+  tags.className = "drill-tags";
+  (beat.tags || []).forEach((tag) => {
+    const chip = document.createElement("span");
+    chip.textContent = tag;
+    tags.appendChild(chip);
+  });
+  body.append(text, tags);
+  row.append(time, lane, body);
+  return row;
+}
+
+function renderDrillProvenance(drill, container) {
+  if (!container || !Array.isArray(drill.provenance)) return;
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const header = document.createElement("tr");
+  (drill.provenanceColumns || ["Authority", "Use", "Limit"]).forEach((label) => {
+    const th = document.createElement("th");
+    th.textContent = label;
+    header.appendChild(th);
+  });
+  thead.appendChild(header);
+  const tbody = document.createElement("tbody");
+  drill.provenance.forEach((row) => {
+    const tr = document.createElement("tr");
+    row.forEach((cell) => {
+      const td = document.createElement("td");
+      td.textContent = cell;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  table.append(thead, tbody);
+  container.replaceChildren(table);
+}
+
+async function hydrateDrillPlayer() {
+  const player = document.querySelector("[data-drill-player]");
+  if (!player) return;
+  const drill = await fetchJson(player.dataset.drillSrc || "data/drills/fai-rapid-defense.json");
+  const title = player.querySelector("[data-drill-title]");
+  const disclaimer = player.querySelector("[data-drill-disclaimer]");
+  const log = player.querySelector("[data-drill-log]");
+  const start = player.querySelector("[data-drill-start]");
+  const skip = player.querySelector("[data-drill-skip]");
+  if (title) title.textContent = drill.title;
+  if (disclaimer) disclaimer.textContent = drill.disclaimer;
+  renderDrillProvenance(drill, player.querySelector("[data-drill-provenance]"));
+  const beats = drill.beats || [];
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let timer = null;
+  let running = false;
+  function renderAll() {
+    if (timer) window.clearTimeout(timer);
+    running = false;
+    log.replaceChildren(...beats.map(renderDrillBeat));
+    log.scrollTop = log.scrollHeight;
+  }
+  function run(index = 0) {
+    if (!log || (running && index === 0)) return;
+    if (reduceMotion) return renderAll();
+    if (index === 0) {
+      if (timer) window.clearTimeout(timer);
+      log.replaceChildren();
+      running = true;
+    }
+    if (index >= beats.length) {
+      running = false;
+      return;
+    }
+    log.appendChild(renderDrillBeat(beats[index]));
+    log.scrollTop = log.scrollHeight;
+    timer = window.setTimeout(() => run(index + 1), 320);
+  }
+  if (start) start.addEventListener("click", () => run(0));
+  if (skip) skip.addEventListener("click", renderAll);
+  if (reduceMotion) renderAll();
+}
+
 function setActiveMark(id) {
   document.querySelectorAll("[data-mark]").forEach((item) => {
     item.toggleAttribute("data-active", item.dataset.mark === id);
@@ -291,11 +427,13 @@ document.querySelectorAll("[data-mark]").forEach((button) => {
   button.addEventListener("click", () => setActiveMark(button.dataset.mark));
 });
 
-const ready = Promise.all([loadEvidence(), loadPortalScenes(), loadApplication("fai")]).then(() => {
+const ready = Promise.all([loadEvidence(), loadPortalScenes(), loadApplication("fai")]).then(async () => {
   hydrateSceneRail();
   hydrateFaiRoom();
   hydrateSourceConstellations();
   hydrateAskConsoles();
+  hydrateFetchCopies();
+  await hydrateDrillPlayer();
   return window.likeMinds;
 });
 
@@ -336,11 +474,7 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
   button.addEventListener("click", async () => {
     const source = document.querySelector(button.dataset.copy);
     if (!source) return;
-    await navigator.clipboard.writeText(source.textContent.trim());
-    button.dataset.copied = "true";
-    setTimeout(() => {
-      delete button.dataset.copied;
-    }, 1800);
+    await copyText(source.textContent, button);
   });
 });
 
