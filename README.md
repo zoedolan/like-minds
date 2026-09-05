@@ -42,3 +42,14 @@ Tracked content should include only public-safe material: public links, distille
 - Wellspring: https://zoedolan.github.io/Vybn-Law/wellspring.html
 - KPP: https://zoedolan.github.io/Vybn-Law/kpp.md
 - Somewhere: https://vybn.ai/somewhere.html
+
+## Archived working copies
+
+There is one maintained application source: the root tree. The older `mess/`
+and `mess/local/` editions, including their interview and drill materials, are
+preserved in Git at `606424d7d04d5c2f9dc323985a443c5badb6a8db:mess/`, rather
+than maintained as nested sites. Four old HTML entrances redirect to the root
+and FAI pages. Old nested asset/data URLs are retired, not redirected.
+
+Recover the complete historical edition without overwriting current work:
+`git archive 606424d7d04d5c2f9dc323985a443c5badb6a8db mess/ | tar -x -C /path/to/empty-recovery-directory`
